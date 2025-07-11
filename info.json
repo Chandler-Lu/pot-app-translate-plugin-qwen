@@ -1,0 +1,61 @@
+{
+  "id": "plugin.com.chandler.qwen",
+  "plugin_type": "translate",
+  "icon": "qwen-color.svg",
+  "display": "通义千问",
+  "homepage": "https://github.com/chandler/pot-app-translate-plugin-qwen",
+  "needs": [
+    {
+      "key": "model",
+      "display": "模型选择",
+      "type": "select",
+      "options": {
+        "qwen2.5-72b-instruct": "qwen2.5-72b-instruct",
+        "qwen2-72b-instruct": "qwen2-72b-instruct",
+        "qwen3-235b-a22b": "qwen3-235b-a22b",
+        "qwen3-30b-a3b": "qwen3-30b-a3b",
+        "qwen3-32b": "qwen3-32b",
+        "qwen-long": "qwen-long",
+        "qwen-max": "qwen-max",
+        "qwen-plus": "qwen-plus",
+        "qwen-turbo": "qwen-turbo",
+        "qwq-32b": "qwq-32b",
+        "qwq-plus": "qwq-plus"
+      },
+      "default": "qwen3-30b-a3b"
+    },
+    {
+      "key": "apiKey",
+      "display": "API 密钥",
+      "type": "input"
+    }
+  ],
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh_HANT",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi",
+    "mn_cy": "mn",
+    "mn_mo": "mn",
+    "km": "km",
+    "nb_no": "no",
+    "nn_no": "no",
+    "fa": "fa"
+  }
+}
